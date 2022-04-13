@@ -310,6 +310,10 @@ ul {
 .imgPago {
   width: 90px; }
 
+.marginBottom {
+  height: 50px;
+  border-bottom: 1px solid #c5c5c5; }
+
 /********************************************************
                     ver mas
 *********************************************************/
@@ -744,6 +748,9 @@ body {
 
 .imgPerfil {
   width: 150px; }
+
+.fontSize {
+  font-size: 12px; }
 
 .modal-login {
   width: 320px; }
