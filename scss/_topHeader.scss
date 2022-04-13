@@ -1,0 +1,129 @@
+/**********************************************************/
+                                    /*TOP HEADER*/ 
+/**********************************************************/
+.container__manualTopHeader{
+    background-color: $backgroundColorTopHeader;
+    padding: 0px 11%;
+    color: #fbfbfb;
+}
+
+.nav__link{
+    padding: 0;
+    padding-top: 10px;
+}
+
+a {
+    & span{
+    color: white;
+    font-size: 12px;
+    }
+}
+
+.faq-izq{
+    cursor: pointer; 
+    color: $ColorRojoMain;
+}
+
+.faq-izq-contacto:hover{
+    cursor:pointer;
+    color: $ColorRojoMain;
+}
+
+.redes__Sociales{
+    font-size: 20px;
+    cursor: pointer;
+    padding-right: 24px;
+    margin-top: 10px;
+}
+
+.facebook{
+    
+    color:#6894f1;
+    transform: scale(1.15);
+}
+
+.twitter{
+    color: #00acee;
+    transform: scale(1.15);
+}
+
+.youtube{
+    color: #c4302b;
+    transform: scale(1.15);
+}
+
+@mixin redes_sociales-hover{
+transition: width 2s, height 2s;
+-ms-transform: scale(1.4);
+-webkit-transform: scale(1.4);
+transform: scale(1.4); 
+}
+
+.facebook:hover{
+    @include redes_sociales-hover;
+}
+
+.twitter:hover{
+    @include redes_sociales-hover();
+}
+
+.youtube:hover{
+    @include redes_sociales-hover();
+}
+
+.instagram {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    text-align: center;
+    margin-top: -10px;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+    transform: scale(1.05);
+}
+
+.instagram:hover{
+    @include redes_sociales-hover();
+}
+.container__manual {
+    background-color: $backgroundColor;
+    padding: 0px 11%;
+    color: #fbfbfb;
+    border-bottom: 3px solid $ColorRojoMain;
+}
+
+.container__manualTopHeader{
+    border-bottom:none;
+}
+
+.container__manualTopHeader-ul{
+    margin-left: -30px;
+}
+
+.img__logo{
+    max-width: 100%;
+}
+.form__buscar{
+    width: 100%;
+    border-radius: 50px 0px 0px 50px;
+    padding-left: 20px;
+    border: 1px solid $ColorRojoMain;
+}
+
+.Suscribirse form input, .form__buscar:focus{
+    outline: none;
+}
+
+.formulario__Padre{
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+}

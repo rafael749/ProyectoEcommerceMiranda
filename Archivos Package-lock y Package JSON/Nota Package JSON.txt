@@ -1,0 +1,2 @@
+En el archivo Package Json se setea la configuracion para que se aplique SASS en mi proyecto de Ecommerce.
+Saludos 
