@@ -283,7 +283,8 @@ ul {
   z-index: 20; }
 
 .carousel-item img {
-  object-fit: scale-down; }
+  object-fit: scale-down;
+  width: 100%; }
 
 .carousel {
   margin-bottom: 100px; }
