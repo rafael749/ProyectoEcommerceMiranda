@@ -15,8 +15,14 @@ MEDIAS QUERYS
     }
 
     .iconMEnu__span{
-        display: none;
+       /* display: none;*/
+       font-size: 15px;
     }
+
+    .sidebar-social-casero a span {
+        font-size: 11px;
+    }
+
     .grillaPadre{
         @include grilla(grid, repeat(1, 1fr), 1%, 10% 0, 0 8%);
 

@@ -216,7 +216,7 @@ ul {
 .iconMEnu__span {
   position: absolute;
   color: #ffffff;
-  margin-top: -3px; }
+  margin-top: -2px; }
 
 #btn-menu {
   display: none; }
@@ -781,7 +781,10 @@ MEDIAS QUERYS
   .sidebar-social-casero {
     padding: 0; }
   .iconMEnu__span {
-    display: none; }
+    /* display: none;*/
+    font-size: 15px; }
+  .sidebar-social-casero a span {
+    font-size: 11px; }
   .grillaPadre {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
