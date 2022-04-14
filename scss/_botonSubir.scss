@@ -7,6 +7,10 @@ html {
 
 .Btn__Flotante {  
     font-size: 20px;  
+
+    &:hover{
+        cursor: pointer;
+    }
 }
 
 .Btn__FlotanteAnchor{
@@ -15,9 +19,5 @@ html {
     width: 50px;
     height: 22px;
     position: fixed;
-    z-index: 10;
-}
-
-.Btn__Flotante:hover {
-	cursor: pointer;
+    z-index: 100;
 }

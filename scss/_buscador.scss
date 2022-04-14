@@ -3,14 +3,11 @@
 *********************************************************************/
 .formulario__Padre{
     margin-top: 20px;
+    & input{
+        overflow: hidden;
+        animation: animate 10s linear infinite;
+    } 
 }
-
-.formulario__Padre input{
-    overflow: hidden;
-    animation: animate 10s linear infinite;
-} 
-    
-
     
 .btn__buscar{   
     width: 30%;  

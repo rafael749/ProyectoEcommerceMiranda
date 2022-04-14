@@ -61,34 +61,3 @@
         color:$ColorRojoMain;
     }
 }
-@media screen and (max-width:992px){
-
-    .label__menu{
-        display: block;
-        position: absolute;
-    }
-
-    .menu{
-        background-color: $backgroundColorBody;
-        position: absolute;
-        width: 75%;
-        margin-left: -75%;
-        transition: all 0.5s;
-        opacity: 0.9;
-        z-index: 30;
-        display: table-column;
-    }
-
-    .menu ul{
-        flex-direction: column;
-        padding-left: 0%;
-    }
-
-    .menu li{
-        border-top: 1px solid rgb(223, 223, 223);
-    }
-
-    #btn-menu:checked ~ .menu {
-        margin: 0%;
-    }
-}
